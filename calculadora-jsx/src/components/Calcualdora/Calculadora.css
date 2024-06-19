@@ -1,0 +1,27 @@
+section#calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    min-width: 30vw;
+    min-height: 75vh;
+    background-color: #221e2f;
+    border: 2px solid #443c5e;
+    border-radius: 2rem;
+}
+
+div#visor{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 25vw;
+    height: 15vh;
+    background-color: #000;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+
+div#visor h2{
+    font-size: 2.5rem;
+}
