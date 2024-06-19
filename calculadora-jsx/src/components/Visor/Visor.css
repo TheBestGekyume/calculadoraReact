@@ -1,0 +1,15 @@
+
+div#visor{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 25vw;
+    height: 15vh;
+    background-color: #000;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+
+div#visor h2{
+    font-size: 2.5rem;
+}

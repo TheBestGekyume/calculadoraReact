@@ -1,8 +1,10 @@
+
+import './Visor.css';
+
 export function Visor(props) {
     return (
-      <section>
-        <h2>{props.title}</h2>
-      </section>
+        <div id='visor'>
+            <h2></h2>
+        </div>
     );
 }
-
