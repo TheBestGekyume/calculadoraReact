@@ -1,10 +1,9 @@
-import React from 'react';
 import './Botao.css';
 
-export function Teclado(props) {
+export function Botao(props) {
     return (
         <div id='teclado'>
-            <button className='botao'></button>
+            <button className='botao'>{props.char}</button>
         </div>
     );
 }
