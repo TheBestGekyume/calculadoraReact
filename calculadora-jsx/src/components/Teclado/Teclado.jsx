@@ -13,6 +13,7 @@ export function Teclado() {
             <Botao char="7"/>
             <Botao char="8"/>
             <Botao char="9"/>
+            <Botao char="9"/>
         </div>
     );
 }
