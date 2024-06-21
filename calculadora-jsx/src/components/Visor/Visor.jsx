@@ -1,7 +1,6 @@
-
 import './Visor.css';
 
-export function Visor(props) {
+export function Visor() {
     return (
         <div id='visor'>
             <h2></h2>
