@@ -3,13 +3,14 @@ div#visor{
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 25vw;
+    width: 100%;
     height: 15vh;
     background-color: #000;
     border-radius: 1rem;
-    padding-left: 1rem;
+    padding-inline: 1rem;
 }
 
 div#visor h2{
+    color: white;
     font-size: 2.5rem;
 }
